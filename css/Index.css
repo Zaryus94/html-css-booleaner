@@ -1,3 +1,7 @@
+body{
+    text-align: start;
+}
+
 #banner{
 background-image: url(../img/pattern.png);
 background-size: 80%;
@@ -24,3 +28,4 @@ color:rgb(118, 202, 239);
 h5 {
     display: inline
 }
+
