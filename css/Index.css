@@ -1,31 +1,82 @@
-body{
-    text-align: start;
+*{
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-#banner{
-background-image: url(../img/pattern.png);
-background-size: 80%;
-background-color: rgb(78, 160, 255);
+/* Body */
+
+.banner{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(78, 160, 255);
+    background-image: url("../img/pattern.png");
+    background-size: 20%;
 }
+
+#logo{
+    height: 130px;
+    width: 150px;
+}
+
 
 h1 {
-    display: inline;
+    padding: 10px 0 0 0;
 }
 
-.grey{
-color: rgb(172, 172, 172);
-}
-
-h3{
-    display: inline;
+.credits{
+    padding: 0 0 20px 0;
+    color: rgb(172, 172, 172);
 }
 
 #author{
-color:rgb(118, 202, 239);
-
+    color:rgb(118, 202, 239);
 }
 
-h5 {
-    display: inline
+#data{
+    font-size: 15px;
 }
 
+h5{
+    display: inline block
+}
+
+.textone{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.highlight{
+    background-color: darkgoldenrod;
+}
+
+.list{
+    list-style-type: circle;
+    margin: 25px 0 20px 20px;
+}
+
+table{
+    margin: 0 0 15px 0;
+    height: 200px;
+    text-align: left;
+}
+
+thead{
+    color: white;
+    background-color: #20a9e5;
+}
+
+tbody{
+    background-color: rgb(177, 229, 242);
+}
+
+#white{
+    background-color: white;
+}
+
+.more{
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+}
